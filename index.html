@@ -3,12 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mipuntito.pe</title>
-  <style>
-</head>
+    <title>mipuntito.pe</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #6a1b9a;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        a {
+            color: #1976D2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .donation-section {
+            margin-top: 40px;
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .donate-btn {
+            background-color: #1976D2;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .donate-btn:hover {
+            background-color: #1565C0;
+        }
+
+        .qr-img {
+            margin-top: 20px;
+            max-width: 250px;
+        }
+
+        .relato-section {
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        .relato-section h2 {
+            border-bottom: 2px solid #6a1b9a;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
 <body>
-    <h1>¡Hola Mundo!</h1>
-    <p>Bienvenido a mi página web.</p>
+    <div class="container">
+        <img src="ChatGPT Image 25 abr 2025 03_30_32.png" alt="Imagen principal">
+
+        <h1>¡Hola Mundo!</h1>
+        <h2>Bienvenido a mi página web</h2>
+        <p>Gracias por visitar. Esta página busca compartir ideas, relatos y recibir apoyo de quienes quieran colaborar.</p>
+
+        <div class="relato-section">
+            <h2>Relato</h2>
+            <p>
+                La vida no es lineal. A veces estás bien, otras no tanto. Lo importante es no dejar de caminar. <br><br>
+                Este relato es una reflexión desde lo profundo, un intento de soltar lo que pesa, lo que no se dice.  
+                Si estás aquí, quizás también busques algo más que palabras, quizás necesites compañía silenciosa en un mar ruidoso.  
+                Respira. Aquí también hay espacio para ti.
+            </p>
+        </div>
+
+        <div class="donation-section">
+            <h2>¿Quieres apoyar?</h2>
+            <p>Tu ayuda es muy importante para seguir creando y compartiendo contenido. Puedes hacerlo mediante PayPal o Yape.</p>
+
+            <a href="https://paypal.me/mipuntophc" target="_blank">
+                <button class="donate-btn">Donar con PayPal</button>
+            </a>
+
+            <div>
+                <p>O escanea este código QR para donar por Yape:</p>
+                <img src="yape.jpeg" alt="QR Yape" class="qr-img">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
