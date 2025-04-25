@@ -3,157 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mipuntito.pe</title>
+    <title>PuntaMiPuntito.pe</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f4f8;
-            color: #333;
+            font-family: Arial, sans-serif; /* Cambié la fuente a una más común */
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            color: #333;
         }
 
         h1, h2, h3 {
-            color: #6a1b9a;
+            color: #6a1b9a; /* Morado para los títulos */
         }
 
         p {
-            font-size: 1.1em;
+            font-size: 16px;
             line-height: 1.6;
-            color: #555;
         }
 
         a {
-            color: #1976D2;
+            color: #0277bd; /* Azul para los enlaces */
             text-decoration: none;
-            font-weight: bold;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .donation-section {
-            margin-top: 40px;
-            background-color: #e8f5e9;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .donate-btn {
-            background-color: #1976D2;
+        button {
+            background-color: #0288d1;
             color: white;
-            padding: 12px 24px;
-            font-size: 1.1em;
+            padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin-top: 10px;
+            text-align: center;
         }
 
-        .donate-btn:hover {
-            background-color: #1565C0;
+        button:hover {
+            background-color: #0277bd;
         }
 
-        .qr-img {
-            margin-top: 20px;
-            max-width: 250px;
-        }
-
-        .relato-section {
-            text-align: left;
-            margin-top: 40px;
-        }
-
-        .relato-section h2 {
-            border-bottom: 2px solid #6a1b9a;
-            padding-bottom: 5px;
+        .download-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
         .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
             margin-top: 20px;
         }
 
-        .social-btn {
-            margin: 10px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            color: white;
-            font-size: 1.1em;
+        .social-links a {
+            font-size: 24px;
+            color: #333;
         }
 
-        .whatsapp-btn {
-            background-color: #25D366;
-        }
-
-        .instagram-btn {
-            background-color: #E4405F;
-        }
-
-        .youtube-btn {
-            background-color: #FF0000;
-        }
-
-        .social-btn:hover {
-            opacity: 0.8;
+        .social-links a:hover {
+            color: #0288d1;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <img src="ChatGPT Image 25 abr 2025 03_30_32.png" alt="Imagen principal">
+    <h1>¡Bienvenidos a PuntaMiPuntito.pe!</h1>
+    <p>En esta página encontrarás contenido exclusivo, como relatos que pueden inspirarte y enlaces para apoyarnos a seguir creando más.</p>
 
-        <h1>¡Hola Mundo!</h1>
-        <h2>Bienvenido a mi página web</h2>
-        <p>Gracias por visitar. Esta página busca compartir ideas, relatos y recibir apoyo de quienes quieran colaborar.</p>
+    <div class="download-section">
+        <h3>Descargar el relato:</h3>
+        <p>Este relato es una historia emocionante llena de giros inesperados. A lo largo de la narrativa, el protagonista se enfrenta a desafíos que pondrán a prueba su carácter y su visión de la vida. A medida que avanza, descubre secretos del pasado que cambian el curso de su destino.</p>
+        <p>Haz clic en el enlace a continuación para descargar el archivo completo del relato en formato .rar.</p>
+        <a href="https://raw.githubusercontent.com/untrululux/PuntaMiPuntito.pe/main/relatoph1.rar" download>
+            <button>Descargar Relato</button>
+        </a>
+    </div>
 
-        <div class="relato-section">
-            <h2>Relato</h2>
-            <p>
-                La vida no es lineal. A veces estas bien, otras no tanto. Lo importante es no dejar de caminar. <br><br>
-                Este relato es una reflexion desde lo profundo, un intento de soltar lo que pesa, lo que no se dice.  
-                Si estas aqui, quizas tambien busques algo mas que palabras, quizas necesites compania silenciosa en un mar ruidoso.  
-                Respira. Aqui tambien hay espacio para ti.
-            </p>
-        </div>
-
-        <div class="donation-section">
-            <h2>¿Quieres apoyar?</h2>
-            <p>Tu ayuda es muy importante para seguir creando y compartiendo contenido. Puedes hacerlo mediante PayPal o Yape.</p>
-
-            <a href="https://paypal.me/mipuntophc" target="_blank">
-                <button class="donate-btn">Donar con PayPal</button>
-            </a>
-
-            <div>
-                <p>O escanea este código QR para donar por Yape:</p>
-                <img src="yape.jpeg" alt="QR Yape" class="qr-img">
-            </div>
-        </div>
-
-        <div class="social-links">
-            <a href="https://www.instagram.com/ant_prtglm/" target="_blank" class="social-btn instagram-btn">Instagram</a>
-            <a href="https://www.youtube.com/@AntonioWoB" target="_blank" class="social-btn youtube-btn">YouTube</a>
-            <a href="https://wa.me/56937554619" target="_blank" class="social-btn whatsapp-btn">WhatsApp</a>
-        </div>
+    <div class="social-links">
+        <a href="https://www.instagram.com/ant_prtglm/" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/@AntonioWoB" target="_blank">YouTube</a>
+        <a href="https://wa.me/56937554619" target="_blank">WhatsApp</a>
     </div>
 </body>
 </html>
