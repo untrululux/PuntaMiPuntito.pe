@@ -11,6 +11,7 @@
             color: #333;
             margin: 0;
             padding: 0;
+            text-align: center; /* Centra todo el texto */
         }
         h1, h2 {
             color: #6a1b9a;
@@ -23,9 +24,11 @@
             text-decoration: underline;
         }
         .container {
-            width: 80%;
-            margin: 0 auto;
+            width: 90%;
+            max-width: 900px; /* Establece un máximo de ancho */
+            margin: 0 auto; /* Centra la caja contenedora */
             padding: 20px;
+            text-align: center; /* Asegura que todo dentro de .container esté centrado */
         }
         .social-icons img {
             width: 30px;
@@ -53,12 +56,16 @@
         .relato-link {
             text-decoration: underline;
         }
+        img {
+            max-width: 100%; /* Asegura que las imágenes no se salgan del contenedor */
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Imagen de portada -->
-        <img src="ChatGPT Image 25 abr 2025 03_30_32.png" alt="Portada" style="width: 100%; max-width: 600px; margin-bottom: 20px;">
+        <img src="ChatGPT Image 25 abr 2025 03_30_32.png" alt="Portada">
 
         <h1>Bienvenido a PuntaMiPuntito.pe</h1>
         <p>¡Gracias por visitar nuestra página! Aquí podrás conocer más sobre nuestro proyecto, leer el relato y apoyarnos con tu donación.</p>
